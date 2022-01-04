@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: 	#FF6060;
+    font-family: sans-serif;
+}
+
+.Basico-1 {
+    background-color: #E33F3E;
+    border-radius: 10px;
+    margin-right: 30px; 
+    padding-left: 10px ;
+    cursor: pointer;
+}
+
+.Basico-2 {
+    border-radius: 10px;
+    margin-right: 25px;
+    
+}
+#menu {
+    float: right ;  
+}
+#menu  ul {
+    margin-top: 10%;
+    margin-right: 55px;
+}
+#menu li  {
+    padding-right: 50px;
+    font-style: none;
+    display: inline;
+    padding: 15px;
+    background-color: #FF6060;
+    border-radius: 15px;
+}
+#menu a {
+    text-decoration: none;
+    padding-top: 25px;
+    color: #FFF;
+    padding: 5px;
+    font-size: 13px;
+}
+.sect {
+   margin-left: 60%;
+   position: absolute;
+   padding-top: 30px;
+}
+select {
+    width: 150px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 5px;
+    color: #FF6060;
+    border: #FF6060;
+    font-size: 15px;
+    margin-right: 30px;
+}
+#form {
+    float: right;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+#form option {
+    border-radius: 15px;
+}
+#conteiner {
+    height: 750px;
+    width: 905px;
+    background: #FF1493;
+    margin: 0 auto;
+    background: url(img/logo_me.jpg) no-repeat ;
+    position:absolute ;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+#conteiner-2 {
+    position: relative;
+    width: 890px;
+    height: 765px;
+    float: left;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-top: 65px;
+    border-radius: 10px;
+    float: left ;
+    margin-left: 30%;
+}
+#conteiner-3 {
+    cursor: pointer;
+    width: 320px;
+    height: 240PX;
+    float: left;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0%;
+    margin-top: 90px;
+    margin-left: 70px;
+}
+#conteiner-4 {
+    cursor: pointer;
+    width: 320px;
+    height: 240PX;
+    float: left;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0%;
+    margin-right: px;
+    margin-top: 15px;
+    margin-left: 70px;
+    clear: both;
+    padding-bottom: 0px;
+    padding-top: 12px;
+}
+#conteiner-5 {
+    cursor: pointer;
+    width: 320px;
+    height: 240PX;
+    float: left;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 15px;
+    margin-left: 70px;
+    clear: both; 
+}
+.text-principal {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    display:flex;
+    padding: 5px;
+    padding-left: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.text-1 {
+    padding: 20px;
+}
+
+.text-2 {
+    padding: 20px;
+}
+.text-principal-2 {
+    margin: 0 auto;
+    margin-left: 25px;
+    display:flex;
+    padding: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 45px;
+}
+.taxa {
+    padding-left: 250px;
+}
+.taxa-2 {
+    padding-left: 70px;
+}
+.taxa-3 {
+    padding-left: 70px;
+}    
+.Max {
+    margin-left: 70px;
+    margin-right: 45px;
+    height: 2px ;
+    background:#FF6347;
+}
+hr {
+    margin-left: 71px;
+    margin-right: 45px;
+    
+}
+
+span {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #A52A2A;
+}
+.rede {
+    font-size: 12px;
+    margin-top: 180px;
+}
+.rede-2 {
+    font-size: 12px;
+    margin-top: 150px;
+}
+.foto-1 {
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.foto-2 {
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.foto-3 {
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.frase {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.trem {
+    margin-left: -110px;
+    padding-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+}
+.home {
+    width: 49px;
+    height: 49px;
+    background-position: -49px -245px;
+    background-color: red  ;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 71px;
+    margin-top: 25px;
+}
+.info ,.garoto {
+    margin-left: 55px;
+    font-size: 12px;
+    display: inline-block;
+    clear: both;
+}
+.garoto {
+    color: gray;
+}
+.junior {
+    margin-left: 71px;
+    margin-right: 45px;
+    margin-top: 15px;
+}
+.mais {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -525px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+.mais-2 {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -425px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+.mais-3 {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -335px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+.mais-4 {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -245px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+.mais-5 {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -155px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+.mais-6 {
+    width: 25px;
+    height: 25px;
+    background-position: -567px -365px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 81px;
+    margin-top: -75px;
+    margin-right: 530px;
+    float: right;
+    text-align: center;
+
+}
+
+#copiar {
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: -525px;
+    margin-right: 530px;
+    text-align: center;
+}
+#copiar-2 {
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: 55px;
+    margin-right: 530px;
+    text-align: center;
+}
+#copiar-3 {
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: 50px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+#copiar-4{
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: 50px;
+    margin-right: 530px;
+    text-align: center;
+}
+#copiar-5{
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: 50px;
+    margin-right: 530px;
+    text-align: center;
+}
+#copiar-6{
+    width: 40px;
+    height: 40px;
+    background-position: -330px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 490px;
+    margin-top: 55px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+.hatake{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: -502px;
+    margin-right: 530px;
+    text-align: center;
+}
+.hatake-2{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: 57px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+.hatake-3{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: 49px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+.hatake-4{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: 50px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+.hatake-5{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: 52px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+.hatake-6{
+    width: 40px;
+    height: 40px;
+    background-position: -290px -345px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 625px;
+    margin-top: 52px;
+    margin-right: 530px;
+    text-align: center;
+}
+
+
+#host {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: -500px;
+    margin-right: 530px;
+}
+#host-2 {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: 58px;
+    margin-right: 530px;
+}
+#host-3 {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: 50px;
+    margin-right: 530px;
+}
+
+#host-4 {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: 48px;
+    margin-right: 530px;
+}
+
+#host-5 {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: 50px;
+    margin-right: 530px;
+}
+#host-6 {
+    width: 40px;
+    height: 40px;
+    background-position: -298px -250px;
+    background-image: url(img/basic_me.jpg);
+    background-repeat: no repeat;
+    margin-left: 755px;
+    margin-top: 53px;
+    margin-right: 530px;
+}
+
+
+
+
+
+
+
+
+
+
